@@ -1,0 +1,39 @@
+.element {
+
+	background-color: #0997d3;
+
+	width: 200px;
+
+	height: 200px;
+	transition: 1s ease-in-out;
+
+}
+
+.element:hover{
+    transform: translateX(100%);
+}
+
+
+img{
+    margin: 50px;
+    animation-name: spinning;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    
+}
+
+
+
+@keyframes spinning {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+       transform: rotate(360deg);
+    }
+}
+
+
+
